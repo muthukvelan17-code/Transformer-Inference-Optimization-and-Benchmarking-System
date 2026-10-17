@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Pytest / Test Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model weights & Checkpoints (Prevent large commits)
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+hf_cache/
+.cache/
+
+# User Exports & Reports (Keep sample dataset intact)
+outputs/
+*.pdf
+transformer_benchmark_*.csv
+transformer_benchmark_*.json
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
